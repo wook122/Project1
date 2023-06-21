@@ -1,4 +1,5 @@
+@import url("./background.css");
+
 div {
-  background-color: red;
-   
+  color: red;
 }

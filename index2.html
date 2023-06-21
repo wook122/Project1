@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      color: red;
+    }
+    div{
+      color: blue;
+    }
+    .parants{
+      width: 200px;
+      height: 250px;
+      background-color: rgb(213, 246, 204);
+    }
+    .child{
+      width: 10px;
+      height: inherit;
+      background-color: rgb(207, 251, 159);
+    }
+    .red{
+      color: red;
+    }
+    #orange{
+      color: orange;
+    }
+    *{
+      color:gray!important;
+    }
+    *{
+      color: yellow!important;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="red" id="orange" style="color: green">Hello World!</div>
+  <div class="parants">
+    <div class=" child"></div>
+  </div>
+</body>
+</html>
